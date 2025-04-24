@@ -1,3 +1,5 @@
+
+/* sets up formating to page */
 body, ul, li, h1, h2, a{
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@ body, ul, li, h1, h2, a{
 }
 
 
-
+/* styles header */
 header{
     background-color:  #EEDB00;
     padding: 1px;
@@ -17,6 +19,7 @@ header{
     left: 0;
 }
 
+/* styles text of header */
 header h1{
     color: white;
     border: 8px solid white;
@@ -25,16 +28,19 @@ header h1{
     border-radius: 34px;
 }
 
-
+/* sets relative position to banner to stack other element within container */
 .banner{
     position: relative;
 }
+
+/* style image of banner */
 .banner img{
     width: 100%;
     max-width: 100%;
     opacity: .9;
 }
 
+/* styles welcome text on top of banner */
 .banner .welcome{
     background-color: black; opacity: .8;
     position: absolute;
@@ -44,15 +50,17 @@ header h1{
     top: 25%;
 }
 
-
+/* style font size for welcome header */
 .banner h2{
     font-size: 74px;
 }
 
+/* styles second portion of h2 */
 .banner h2 span{
     font-size: 95px;
 }
 
+/* styles navigation bar */
 nav{
     background-color:  #06425C ;
     padding:  20px;
@@ -60,21 +68,28 @@ nav{
     top: 60px;
     z-index: 1;
 }
+
+/* styles parent container of nav list */
 nav ul{
     white-space: nowrap;
     max-width: 1200px;
     margin: 0px auto;
 }
+
+/* styles child list of parent container */
 nav li{
     width: 35%;
     display: inline-block;
     font-size: 24px;
 }
+
+/* styles links */
 nav li a{
     color: white;
     text-decoration: none;
 }
 
+/* styles main area of website */
 main{
     max-width: 100%;
     width: 1200px;
@@ -83,22 +98,26 @@ main{
     box-sizing: border-box;
 }
 
+/* styles header on main parent */
 article h2{
     color:  #FF3333;
     font-size: 50px;
     text-align: center;
 }
 
+/* styles paragraph of header 2 parent */
 article p{
     line-height: 2em;
 }
 
+/* styles first image */
 .images{
     text-align: center; 
     margin: 80px 0;
     white-space: nowrap;
 }
 
+/* styles second image */
 .images li{
     display: inline-block;
     width: 40%;
@@ -156,6 +175,14 @@ table {
   
   tr:nth-child(even) {
     background-color: #dddddd;
+  }
+
+  .date{
+    text-align: center;
+  }
+
+  .cash{
+    text-align: center;
   }
 
 
