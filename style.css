@@ -1,11 +1,38 @@
+header{
+    background-color: #FFE81F;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
 .banner{
     position: relative;
 }
 .banner img{
     width: 100%;
+    max-width: 100%;
+    opacity: .9;
+}
+
+.banner .welcome{
+    background-color: black; opacity: .8;
+    position: absolute;
+    color: white;
+    padding: 30px;
+    left: 0px;
+    top: 13%;
 }
 
 
+.banner h2{
+    font-size: 74px;
+}
+
+.banner h2 span{
+    font-size: 95px;
+}
 
 
 
