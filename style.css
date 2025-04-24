@@ -33,7 +33,7 @@ header h1{
     color: white;
     padding: 30px;
     left: 0px;
-    top: 13%;
+    top: 25%;
 }
 
 
@@ -45,11 +45,8 @@ header h1{
     font-size: 95px;
 }
 
-
-
-
 nav{
-    background-color: #381010 ;
+    background-color:  #06425C ;
     padding:  20px;
 
 }
