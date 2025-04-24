@@ -1,3 +1,11 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+
+
 header{
     background-color:  #EEDB00;
     padding: 1px;
@@ -48,6 +56,8 @@ header h1{
 nav{
     background-color:  #06425C ;
     padding:  20px;
+    position: sticky;
+    top: 60px;
 
 }
 nav ul{
@@ -60,6 +70,41 @@ nav li{
     display: inline-block;
     font-size: 24px;
 }
-a{
+nav li a{
     color: white;
+    text-decoration: none;
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+article h2{
+    color:  #FF3333;
+    font-size: 50px;
+}
+
+article p{
+    line-height: 2em;
+}
+
+.images{
+    text-align: center; 
+    margin: 80px 0;
+    white-space: nowrap;
+}
+
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+
+.images li img{
+    max-width: 100%;
+    opacity: .8;
 }
